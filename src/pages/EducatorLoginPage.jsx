@@ -17,7 +17,7 @@ export default function EducatorLoginPage() {
 
 
    const response = await fetch(
-     `https://script.google.com/macros/s/AKfycbwAmOmI8TvxGRmLl6RPVIvfQz90iLWOb77PXrCdsG5fAdFAlSdVMDbxTYMYYpr6hSYP/exec?userId=${userId}`
+     `https://script.google.com/macros/s/AKfycbzWnsz-2TjIqt3ACRd-ZWC35fzTsSMHE-NSjCJ1JaCjDVrYwkjpzpXAbBjM-mGi-lty/exec?userId=${userId}`
    );
    const data = await response.json();
 
